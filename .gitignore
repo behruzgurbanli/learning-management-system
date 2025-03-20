@@ -24,7 +24,6 @@ db.sqlite3
 .docker/
 
 # Environment Variables
-.env
 
 # IDE / Editor
 .vscode/
