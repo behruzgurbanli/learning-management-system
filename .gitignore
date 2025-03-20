@@ -1,0 +1,57 @@
+# Node.js / Frontend
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+dist/
+build/
+
+# Django / Backend
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+*.log
+*.pot
+*.py[cod]
+*.swp
+.DS_Store
+*.sqlite3
+
+# Docker
+*.dockerignore
+.docker/
+
+# Environment Variables
+.env
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Docker Volumes
+postgres_data/
+pgadmin_data/
+
+
+# dependencies such as pnp
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
