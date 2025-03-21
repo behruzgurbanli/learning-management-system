@@ -19,7 +19,7 @@ services:
       - db
 
   db:
-    image: postgres:15
+    image: postgres:17.4
     environment:
       POSTGRES_DB: ${POSTGRES_DB}
       POSTGRES_USER: ${POSTGRES_USER}
@@ -41,7 +41,7 @@ services:
       - shared-network
 
   pgadmin:
-    image: dpage/pgadmin4:9.0
+    image: dpage/pgadmin4:8.13
     container_name: lms_project-pgadmin
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@lms.com
